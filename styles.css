@@ -22,14 +22,20 @@ a {
     max-width: 1170px;
 }
 
-.nav-links {
+/* .nav-links {
     height: auto;
     display: flex;
-}
+} */
 
 .nav-link {
     margin-right: 0.7rem;
-
 }
 
+/* .nav-icons {
+    display: flex;
+} */
+
+.nav-icon {
+    margin-right: 0.7rem;
+}
 

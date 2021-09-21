@@ -13,6 +13,11 @@ a {
     text-decoration: none;
 }
 
+img {
+    width: 100%;
+    display: block;
+}
+
 .navbar {
     background: black;
     padding: 1rem 2rem;
@@ -68,4 +73,17 @@ a {
     margin-right: 0.7rem;
     color: #fff;
 }
+
+
+/* BANNER */
+.banner-img {
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7)),
+    url("./img/pexels-daniel-absi-952670.jpg") center/cover no-repeat;
+    display: flex;
+    min-height: 100vh;
+    /* min-height: calc(100vh - 62px); */
+    justify-content: center;
+    align-items: center;
+}
+
 

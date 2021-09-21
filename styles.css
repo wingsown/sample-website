@@ -19,7 +19,20 @@ img {
 }
 
 /* RE-USABLES */
+.section {
+    padding: 5rem 0;
+}
 
+.title-wrapper {
+    margin-bottom: 2rem;
+}
+
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    letter-spacing: 0.5rem;
+}
 
 /* NAVBAR */
 .navbar {

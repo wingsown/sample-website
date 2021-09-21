@@ -99,4 +99,13 @@ img {
     font-size: 4.5rem;
 }
 
+.banner-sub {
+    width: 70%;
+    margin: 0 auto;
+    /* margin-bottom: 2rem; */
+    letter-spacing: .25rem;
+    line-height: 2rem;
+    font-weight: 400;
+}
+
 

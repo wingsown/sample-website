@@ -86,4 +86,17 @@ img {
     align-items: center;
 }
 
+.banner-container {
+    color: #fff;
+    text-align: center;
+    padding: 0 2rem;
+}
+
+.banner-title {
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    letter-spacing: 0.4rem;
+    font-size: 4.5rem;
+}
+
 

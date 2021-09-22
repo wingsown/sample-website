@@ -10,6 +10,7 @@
 body {
     font-family: 'Lato', sans-serif;
 }
+
 a {
     text-decoration: none;
 }
@@ -17,6 +18,36 @@ a {
 img {
     width: 100%;
     display: block;
+}
+
+h1, 
+h2, 
+h3, 
+h4 {
+    margin-bottom: 1.25rem;
+    letter-spacing: .25rem;
+}
+
+h1 {
+    font-size: 3.3rem;
+}
+
+h2 {
+    font-size: 2.3rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+p {
+    margin-bottom: 1.25rem;
+    line-height: 2;
+    font-weight: 300;
 }
 
 /* RE-USABLES */
@@ -151,7 +182,7 @@ img {
     left: -1.5rem;
 }
 
-.about-img {
+.about-img, .about-info {
     margin-bottom: 4rem;
     flex: 0 0 calc(50% - 2rem);
     align-self: center;
@@ -161,6 +192,10 @@ img {
 
 .about-photo {
     position: relative;
+}
+
+.about-info h3 {
+    text-transform: uppercase;
 }
 
 

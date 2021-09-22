@@ -35,6 +35,12 @@ img {
     letter-spacing: 0.5rem;
 }
 
+.section-center {
+    width: 85vw;
+    margin: 4rem auto 2rem auto;
+    max-width: 1170px;
+}
+
 /* NAVBAR */
 .navbar {
     background: black;

@@ -72,6 +72,24 @@ p {
     max-width: 1170px;
 }
 
+.btn-primary {
+    text-transform: uppercase;
+    letter-spacing: .25rem;;
+    color: #fff;
+    background: #afafaf;
+    border: 2px solid #fff;
+    padding: 0.9rem 1.6rem;
+    display: inline-block;
+    transition: 0.3s linear all;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background: transparent;
+    color: #afafaf;
+    border: 2px solid #afafaf;
+}
+
 /* NAVBAR */
 .navbar {
     background: black;

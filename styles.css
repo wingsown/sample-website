@@ -216,4 +216,14 @@ p {
     text-transform: uppercase;
 }
 
+/* SKILLS */
+
+.skills {
+    background: #191919;
+}
+
+.skills-header {
+    color: white;
+}
+
 

@@ -266,4 +266,52 @@ p {
     color: #fff;
 }
 
+/* PROJECTS */
+.projects-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project-card {
+    box-shadow: 2px 5px 3px 0px rgba(0, 0 ,0, 0.25);
+    transition: 0.3s linear all;
+    margin-bottom: 4rem;
+    flex: 0 0 calc(33.3333% - 1rem);
+}
+
+.project-card:hover {
+    box-shadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.project-card a {
+    text-decoration: none;
+    color: black;
+}
+
+.project-img-container {
+    position: relative;
+}
+
+.project-title {
+    text-transform: capitalize;
+}
+
+.proj-date {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #404040;
+    color: white;
+    padding: 0.25rem 0.5rem;
+}
+
+.card-footer {
+    padding: 1.2rem 1.5rem;
+}
+
+
+
+
+
 

@@ -314,6 +314,20 @@ p {
     text-align: center;
 }
 
+/* CONTACT */
+
+.contact {
+    background: #191919;
+}
+
+.contact-header {
+    color: #fff;
+}
+
+.input-group {
+    width: 90vw;
+}
+
 
 
 
